@@ -1,11 +1,11 @@
-# RACER: Robust and Adaptive Computing and Energy Resource Coordination Framework
+# RACER+: Robust and Adaptive Computing and Energy Resource Coordination Framework plus refined strategies
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+"></a>
 </p>
 
-This repository contains the datasets and experimental results associated with the submission: *Refined Thompson Learning for Adaptive Bandits: Sustainable Power-Efficient Flexibility Scheduling Across Data Centers*.
+This repository contains the datasets and experimental results associated with the submission: *Refined Thompson Learning for Adaptive Restless Bandits: Power-Efficient Flexibility Scheduling Across Data Centers*.
 
 
 ![RACER GitHub cover](Readme_graph/Github_cover.png)
@@ -16,11 +16,11 @@ This repository contains the datasets and experimental results associated with t
 
 | Path | Contents | Use / Notes |
 | --- | --- | --- |
-| `datasets/datacenter_with_metrics/` | Processed data-center VM/job datasets named `datacenter_*_with_metrics.csv`. | Consumed by the real-data and region-grid load-balancing experiments. |
-| `datasets/carbon_intensity/` | Regional hourly carbon-intensity data. | Used to construct grid/carbon-cost features for load-balancing experiments. |
-| `datasets/electricity_prices_processed/` | Processed regional electricity-price CSV files. | Provides regional price inputs. |
-| `datasets/electricity_prices_standardized/` | Standardized electricity-price CSV files aligned for cross-region use. | Kept because the region-grid experiments use standardized grid-cost inputs. |
-| `datasets/power_qos_distribution/` | Power-saving index and QoS-cost distribution figure. | Includes the generated figure and plotting script copied from `current_paper_artifacts/power_qos_distribution/`. |
+| `datasets/Microsoft datacenter_with_metrics/` | Processed Microsoft data-center VM/job traces named `datacenter_*_with_metrics.csv`. | Used by the real-data context-noise experiments and product-state simulations. |
+| `datasets/mit_gpu_datacenter_with_metrics_calibrated/` | Calibrated MIT Supercloud GPU workload traces, segment pool, generation summary, and contextual metric plots. | Used by the MIT Supercloud support-construction ablation simulations. |
+| `datasets/MIT supercloud dataset list/` | MIT Supercloud labelled job metadata, TRES mapping, job statistics, and dataset README. | Provides source workload labels and metadata for the calibrated MIT GPU data. |
+| `datasets/data center and nearest LMP/` | Data-center location and nearest electricity-market LMP plots plus plotting scripts. | Documents regional price/location inputs used for data-center energy-context analysis. |
+| `datasets/power_qos_distribution/` | Power-saving index and QoS-cost distribution figure plus plotting script. | Documents the power/QoS trade-off distribution used in the study. |
 
 ### Experiment Outputs and Reproduction Scripts
 
