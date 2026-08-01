@@ -1,0 +1,5 @@
+policy_label,policy,lr_mode,n,mean_reward_pct_oracle,std_reward_pct_oracle,sem_reward_pct_oracle
+tw_gated_offline_low_rank,TW gated + LR,Global LR,10,49.57953980992649,20.599151849477675,6.51402377120194
+tw_gated_offline_low_rank,TW gated + LR,Block/local LR,10,51.234768049583295,24.44169393271054,7.729142270008356
+tm_tw_refined_gated_offline_low_rank,Adaptive TW gated + LR,Global LR,10,53.85193513844566,11.290913808476224,3.5705004499431037
+tm_tw_refined_gated_offline_low_rank,Adaptive TW gated + LR,Block/local LR,10,60.630920621357575,12.176346210436877,3.8504987603740437

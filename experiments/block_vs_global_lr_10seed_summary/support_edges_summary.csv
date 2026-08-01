@@ -1,0 +1,3 @@
+lr_mode_key,lr_mode,mean_total_edges,sem_total_edges
+global_lr,Global LR,8160.0,0.0
+block_local_lr,Block/local LR,8160.0,0.0

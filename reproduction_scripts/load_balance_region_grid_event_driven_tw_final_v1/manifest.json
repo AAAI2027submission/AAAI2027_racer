@@ -1,0 +1,10 @@
+{
+  "description": "Consolidated final region-grid event-driven TW outputs after per-scenario grid-cost normalization.",
+  "kept_sources": {
+    "homo_norm": "ruicheng_codebase_2026-04-28/docs/research/rmab_vm_outputs/load_balance_region_grid_event_driven_tw_q4_homo_norm_v1",
+    "heter_norm": "ruicheng_codebase_2026-04-28/docs/research/rmab_vm_outputs/load_balance_region_grid_event_driven_tw_q4_heter_norm_v1",
+    "beta_gate_param_homo_g15": "ruicheng_codebase_2026-04-28/docs/research/rmab_vm_outputs/load_balance_region_grid_beta_gate_param_homo_g15_v1"
+  },
+  "combined_summary": "combined_homo_heter_best_refined_summary.csv",
+  "combined_table": "tab_region_grid_event_tw_q4_norm_best_refined.tex"
+}

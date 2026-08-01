@@ -1,0 +1,5 @@
+experiment_folder,experiment,n_dc,budget,S,queue_states,operation_states,policy_label,transition_variant,gate_mode,trust_floor,n,mean_reward_pct_oracle,mean_transition_l1_error,mean_off_support_leakage,mean_top1_agreement,mean_top2_agreement,mean_cum_regret
+gated_offline_prior,Gated offline prior,8,3,80,40,2,tw_gated_offline,gated_offline,deterministic,0.1,10,70.10392107433776,0.1028351084958134,0.0084017193780399,0.4049333333333332,0.7267333333333333,462678.2863491732
+gated_offline_block_lr,Gated offline + block LR,8,3,80,40,2,tw_gated_offline_low_rank,gated_offline_low_rank,deterministic,0.1,10,68.488278854411,0.1024455171896523,0.0083844416290289,0.4357333333333333,0.6847333333333333,495073.2316958277
+rule_based_support,Rule-based support,8,3,80,40,2,tw_support_offline,support_offline,deterministic,0.1,10,73.91985515627076,0.1383140677757368,4.231152976206215e-07,0.5316,0.8012666666666668,378843.8572265944
+model_rules_union,Model + rules union,8,3,80,40,2,tw_support_offline,support_offline,deterministic,0.1,10,76.4324803882981,0.0854431424440636,2.839112388845935e-07,0.5156,0.8028666666666666,370068.5021566944

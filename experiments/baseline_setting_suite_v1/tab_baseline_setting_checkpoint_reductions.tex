@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\caption{Baseline-setting diagnostic reductions from round 100 to round 1000. Rows are ordered by the round-1000 reward-versus-oracle ranking.}
+\label{tab:baseline_setting_checkpoint_reductions}
+\begin{tabular}{lrrrrr}
+\toprule
+Strategy & Reward rank & $\Delta$ L1 & L1 red. (\%) & $\Delta$ leakage & Leakage red. (\%) \\
+\midrule
+Adaptive TW & 1 & 0.07117 & 39.1 & 0.023919 & 55.4 \\
+Beta-gate prior & 2 & 0.04087 & 37.1 & 0.012222 & 46.7 \\
+EXP4 & 3 & 0.06119 & 34.2 & 0.010547 & 24.1 \\
+ST & 4 & 0.06320 & 37.1 & 0.015615 & 36.7 \\
+Gated + LR & 5 & 0.04486 & 39.0 & 0.012576 & 47.2 \\
+Gated prior & 6 & 0.03854 & 35.5 & 0.011805 & 45.5 \\
+Support + offline & 7 & 0.02308 & 29.4 & 1.0392e-07 & 46.1 \\
+Offline prior & 8 & 0.03784 & 35.2 & 0.013506 & 51.4 \\
+Beta-gate + LR & 9 & 0.04239 & 37.7 & 0.012047 & 46.1 \\
+Local UCB+TW & 10 & 0.06449 & 36.7 & 0.020952 & 53.7 \\
+TW & 11 & 0.07014 & 38.0 & 0.018581 & 51.0 \\
+Global UCB+TW & 12 & 0.07067 & 39.4 & 0.021871 & 54.4 \\
+\bottomrule
+\end{tabular}
+\end{table*}

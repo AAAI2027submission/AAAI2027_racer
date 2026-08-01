@@ -1,0 +1,41 @@
+experiment_folder,experiment,seed,arms,total_offline_support_edges,mean_offline_support_edges,min_offline_support_edges,max_offline_support_edges
+gated_offline_prior,Gated offline prior,42,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,43,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,44,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,45,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,46,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,47,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,48,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,49,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,50,8,8160,1020.0,1020,1020
+gated_offline_prior,Gated offline prior,51,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,42,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,43,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,44,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,45,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,46,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,47,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,48,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,49,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,50,8,8160,1020.0,1020,1020
+gated_offline_block_lr,Gated offline + block LR,51,8,8160,1020.0,1020,1020
+rule_based_support,Rule-based support,42,8,2632,329.0,329,329
+rule_based_support,Rule-based support,43,8,2632,329.0,329,329
+rule_based_support,Rule-based support,44,8,2632,329.0,329,329
+rule_based_support,Rule-based support,45,8,2632,329.0,329,329
+rule_based_support,Rule-based support,46,8,2632,329.0,329,329
+rule_based_support,Rule-based support,47,8,2632,329.0,329,329
+rule_based_support,Rule-based support,48,8,2632,329.0,329,329
+rule_based_support,Rule-based support,49,8,2632,329.0,329,329
+rule_based_support,Rule-based support,50,8,2632,329.0,329,329
+rule_based_support,Rule-based support,51,8,2632,329.0,329,329
+model_rules_union,Model + rules union,42,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,43,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,44,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,45,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,46,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,47,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,48,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,49,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,50,8,8160,1020.0,1020,1020
+model_rules_union,Model + rules union,51,8,8160,1020.0,1020,1020

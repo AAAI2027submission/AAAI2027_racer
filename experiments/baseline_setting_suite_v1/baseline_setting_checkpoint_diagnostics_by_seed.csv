@@ -1,0 +1,261 @@
+round,strategy,display_name,role,policy,transition_variant,gate_mode,seed_index,transition_l1_error,off_support_leakage,reward_pct_oracle,top1_agreement,top2_agreement
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,0,0.16569013613655484,0.04534217717533234,75.45754255716875,0.33,0.51
+100,TW,TW,TW,tw,dense,deterministic,0,0.18693778283308005,0.03766271572615997,78.89558592010795,0.27,0.57
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,0,0.17534372299653328,0.036573857492188125,84.26704303910022,0.39,0.73
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,0,0.17250211118856276,0.04140823735028617,81.3408180539313,0.48,0.69
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,0,0.18440043315936736,0.049849784442169955,90.64413812848152,0.55,0.75
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,0,0.1834755875495701,0.039341082486822374,84.55242281260335,0.56,0.65
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,0,0.19505716853521377,0.03999020127743981,94.50390282179977,0.66,0.84
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,0,0.10177966770407804,0.024733285549243828,90.07484695044664,0.6,0.86
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,0,0.1096736809125022,0.025387946751445407,96.40174039740165,0.71,0.86
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,0,0.11712916278755711,0.02491619497839592,89.759978236744,0.48,0.8
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,0,0.12093392368585248,0.02614863965417319,90.4175672640852,0.62,0.79
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,0,0.10890538573498458,0.026565482578674332,89.7459620485542,0.66,0.78
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,0,0.07139328244904612,2.207125005636832e-07,99.70552572660166,0.7,0.93
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,1,0.1670523710118952,0.0413301914534749,95.69052656199001,0.64,0.82
+100,TW,TW,TW,tw,dense,deterministic,1,0.17801654483514506,0.03631895340537925,86.59963558440812,0.6,0.82
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,1,0.1593375133728476,0.03910298198650789,88.11658922791442,0.58,0.79
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,1,0.1673826011011098,0.03732904126859827,76.01749149184299,0.43,0.78
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,1,0.18020085135783792,0.042342998513190934,97.59653567259132,0.69,0.93
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,1,0.19348865682075952,0.0360730314362492,86.9196455680415,0.6,0.8
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,1,0.172320111932858,0.04109108230199197,92.66105510466409,0.6,0.85
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,1,0.11391773672360607,0.0256273113532486,95.74281667598085,0.66,0.87
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,1,0.10907651541295696,0.025609444439400803,96.44459741524963,0.8,0.92
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,1,0.11320499023386886,0.024894031494908583,97.96206664682536,0.73,0.92
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,1,0.1165557114507297,0.02576888306236422,98.73872635399427,0.73,0.9
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,1,0.11159591932784703,0.025291463401381078,96.21123868160787,0.74,0.92
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,1,0.07838965004286386,2.284882496744868e-07,98.58944300049438,0.81,0.93
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,2,0.17274011588184715,0.04153373467231702,91.38998252419881,0.44,0.56
+100,TW,TW,TW,tw,dense,deterministic,2,0.19273709941246786,0.034149191554565486,87.6772681314073,0.57,0.76
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,2,0.18356242508328421,0.04112020455547693,93.8404720604627,0.56,0.73
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,2,0.17974726434869526,0.036418094271658465,87.31975917475431,0.42,0.75
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,2,0.18218048576576498,0.04598232940380396,91.80260644802976,0.56,0.69
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,2,0.18178212339684366,0.04025078650855687,89.76497998637257,0.62,0.76
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,2,0.17440854685788826,0.0481615734540938,94.88015722058434,0.55,0.72
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,2,0.11355866789760263,0.027380556645897322,92.01622641463777,0.55,0.73
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,2,0.1135141592268947,0.026336587105117406,94.83550497276802,0.59,0.71
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,2,0.10553461741022997,0.02751793079162534,90.32793715940024,0.56,0.72
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,2,0.10580521029614968,0.02644682844768174,89.25923064558468,0.51,0.69
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,2,0.10636398656257605,0.026958297173070075,90.60189240709771,0.56,0.7
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,2,0.08034660904945394,2.16588877706951e-07,95.61408681400293,0.67,0.81
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,3,0.16476778326353994,0.04234455176903175,96.32211403416639,0.57,0.73
+100,TW,TW,TW,tw,dense,deterministic,3,0.18059498668567225,0.034574473218190606,78.09779003103161,0.51,0.6
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,3,0.18980319135469192,0.03786277903452041,88.91008108752925,0.51,0.71
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,3,0.19255410352185057,0.03818674117633325,86.59381904686286,0.52,0.61
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,3,0.17231787086093944,0.04260759441557744,87.19839844218198,0.53,0.71
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,3,0.1773639931950211,0.04335124644402183,88.56723469922734,0.56,0.71
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,3,0.1817634325792838,0.04074892879261909,83.92501198529949,0.38,0.7
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,3,0.09945130829796826,0.026503825426210163,87.17587988188146,0.38,0.65
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,3,0.10421337559364138,0.025427607162576606,76.11938404485883,0.31,0.61
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,3,0.11544606643143553,0.02546942388935465,94.6308395656166,0.55,0.75
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,3,0.10335906935845122,0.02611858950965527,84.93325740846919,0.28,0.5
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,3,0.11446764879340181,0.026019705301869128,85.14078679994577,0.48,0.69
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,3,0.07852485745678346,2.1723460393982365e-07,88.02122501687874,0.51,0.74
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,4,0.17142373193925206,0.03752986177008289,85.36142241947817,0.53,0.75
+100,TW,TW,TW,tw,dense,deterministic,4,0.20440774336595713,0.03573451189910349,87.93051694723987,0.68,0.81
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,4,0.17754625246253364,0.038950281573430626,91.95809649010448,0.64,0.78
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,4,0.17714207946536706,0.04083379733223277,85.93601247646957,0.47,0.64
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,4,0.1745158486114797,0.04269443255344006,96.288108595853,0.77,0.86
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,4,0.18137752619119754,0.04430689644274893,86.47277145467208,0.49,0.75
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,4,0.182643701386056,0.038356988145180036,99.3669622616627,0.7,0.87
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,4,0.10832897774495093,0.026574011529221765,97.79440144235689,0.7,0.8
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,4,0.11031878060312246,0.026614365597622557,95.89257677656488,0.71,0.85
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,4,0.11491331619538543,0.027115712739507206,97.45542370052632,0.71,0.82
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,4,0.10210805829672458,0.025253224720574292,98.00189261886588,0.76,0.86
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,4,0.11450652413368584,0.02492783016932912,92.99989071068912,0.59,0.74
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,4,0.07075645787451264,2.2703807344358975e-07,90.14895303777192,0.54,0.74
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,5,0.18582613640032883,0.04403610648018261,93.44701161383293,0.7,0.81
+100,TW,TW,TW,tw,dense,deterministic,5,0.17489115011995784,0.03096489655049975,71.95449825872072,0.36,0.62
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,5,0.17367536999792146,0.0405530369228047,93.98148000063127,0.71,0.86
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,5,0.18573999514257886,0.047637715233730775,88.23734812427132,0.58,0.74
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,5,0.17642349997223938,0.041703125389732455,87.52696156703702,0.61,0.8
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,5,0.18576751331370805,0.040693307429448815,85.6663308591482,0.44,0.65
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,5,0.18781261937244093,0.04439882124598985,95.9781604326943,0.7,0.85
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,5,0.10218911134735,0.026785781826386846,98.96835583005974,0.66,0.89
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,5,0.10837154330823338,0.024703750451806828,91.59270881437506,0.58,0.8
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,5,0.11779100301805744,0.02614762206316989,100.15904326082308,0.73,0.91
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,5,0.11196602327098906,0.027173130423471737,95.04097809108663,0.62,0.83
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,5,0.1113218015362181,0.026327253990801273,99.17702922870983,0.71,0.84
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,5,0.07957839608305693,2.3402116171441268e-07,98.03141652861885,0.61,0.87
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,6,0.16814786464856094,0.046078225447967636,84.11677563675933,0.48,0.63
+100,TW,TW,TW,tw,dense,deterministic,6,0.17897822338133076,0.052066580141168786,88.65771076640921,0.56,0.69
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,6,0.17430055053764507,0.04183035900295914,87.99820569394032,0.57,0.68
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,6,0.18180506693799314,0.0399898457178608,90.89915054302655,0.61,0.74
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,6,0.17240992043112824,0.04511939544978974,97.55403474913444,0.63,0.7
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,6,0.17172084216550818,0.041776246272609424,86.1299751004859,0.52,0.71
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,6,0.21285635516594176,0.04557228073600069,96.95444805309448,0.61,0.8
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,6,0.10788746285255571,0.028718754388701008,95.91854746515445,0.58,0.69
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,6,0.10619108342635002,0.029243158294556943,94.44889039049619,0.56,0.73
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,6,0.11823393923357559,0.02999563949041501,88.70397270254333,0.52,0.64
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,6,0.11400849629902095,0.027505145231383858,95.44829230748815,0.58,0.68
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,6,0.11516830948532022,0.02671949074883398,92.57179069763716,0.49,0.64
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,6,0.07979158683631274,2.2598219879221244e-07,95.58046330235501,0.59,0.76
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,7,0.1726981500371561,0.04327291556190656,92.54629614133202,0.42,0.62
+100,TW,TW,TW,tw,dense,deterministic,7,0.17015211740271127,0.03539968867010115,85.94961348028889,0.51,0.67
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,7,0.1798991112391707,0.040152301800201726,85.50803300710493,0.48,0.7
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,7,0.17914886545001135,0.04099414610050389,92.94001636315024,0.52,0.71
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,7,0.1814660950583371,0.03873177970164688,91.26415253395835,0.69,0.76
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,7,0.1897755896159023,0.04455919448588135,85.21956931358201,0.46,0.63
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,7,0.16697108406151587,0.0424200492593702,94.32830766653203,0.56,0.8
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,7,0.10977043933704388,0.024638485361888177,95.17530921792257,0.55,0.75
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,7,0.10860257610988501,0.025365502244056017,96.7218840809156,0.79,0.86
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,7,0.11413027222715004,0.02643595370359351,93.31403597945256,0.65,0.81
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,7,0.11119389217432334,0.024739611399951324,86.70588885326772,0.6,0.71
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,7,0.11180783387274194,0.026693572518041702,96.09654885777465,0.69,0.85
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,7,0.08582946440734254,2.2654215560950447e-07,93.13165677709678,0.63,0.82
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,8,0.17392979436416664,0.04319902586887643,96.50448229786758,0.65,0.85
+100,TW,TW,TW,tw,dense,deterministic,8,0.18735887951696828,0.038024339290774554,90.84184318283782,0.59,0.71
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,8,0.175854137667841,0.03562247232543531,92.35389410051319,0.58,0.76
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,8,0.17595345734651635,0.04061671327230438,89.821991435696,0.58,0.74
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,8,0.17392525500764627,0.0388243660479919,81.18145351419699,0.38,0.71
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,8,0.16673515844457745,0.03596874546807895,91.01332622820779,0.52,0.75
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,8,0.16962219483348526,0.04395640086560283,91.29240493092463,0.43,0.64
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,8,0.10862945413035127,0.026624520406688477,91.04755073700083,0.44,0.67
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,8,0.10527779549928656,0.025199640142341596,84.12688377078075,0.37,0.59
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,8,0.11415048715103149,0.027266243759488183,94.5968180824141,0.45,0.67
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,8,0.12051066224005978,0.027044669552110864,95.48929405680494,0.5,0.69
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,8,0.11436027890555668,0.0257615702404547,91.86042427175425,0.4,0.66
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,8,0.08186468398902347,2.2714866139281109e-07,92.15224975616722,0.54,0.68
+100,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,9,0.1594317446699977,0.04070656806310734,88.28264023860206,0.54,0.74
+100,TW,TW,TW,tw,dense,deterministic,9,0.1924313093738004,0.029414099432878614,84.76637140925193,0.49,0.66
+100,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,9,0.16839113503920264,0.03833704255941837,87.82945677831418,0.56,0.77
+100,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,9,0.18161320575404152,0.03877429545303535,87.55181485584188,0.5,0.7
+100,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,9,0.1887309716332584,0.05018950765714129,82.55399919809929,0.39,0.67
+100,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,9,0.17504748781396984,0.03853371685792417,88.06169887404764,0.41,0.75
+100,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,9,0.177421529920671,0.04710682795419446,89.64816667045692,0.53,0.78
+100,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,9,0.10982213081394598,0.02527415651053202,94.41037725212874,0.58,0.8
+100,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,9,0.11035499504503099,0.0255184717703192,94.28613929450454,0.56,0.82
+100,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,9,0.11949428047819678,0.026405583769961227,97.53830307499479,0.69,0.84
+100,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,9,0.09630779019673624,0.025425792950793516,82.40368010958649,0.53,0.79
+100,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,9,0.11487513881761038,0.02624534238605663,82.34595091569223,0.55,0.87
+100,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,9,0.07810489796230366,2.3018165962353872e-07,97.17604420699654,0.71,0.87
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,0,0.1033699267126912,0.0207376520993036,97.86973785353352,0.672,0.881
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,1,0.1068379601669783,0.0215679507977345,97.22358852605544,0.72,0.893
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,2,0.0940497959290287,0.0242031513418206,99.24657280786882,0.537,0.751
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,3,0.103966344141658,0.0273403447536263,97.23976420258523,0.689,0.833
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,4,0.1077321684747548,0.0252942791384542,95.27860665518875,0.677,0.856
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,5,0.1072595854242905,0.0298651053112958,100.31738391833916,0.724,0.894
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,6,0.1078135367795965,0.0300554393858533,98.96658484083898,0.599,0.748
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,7,0.1132489745626615,0.0322482034690557,100.1555319896927,0.627,0.833
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,8,0.1206298854256316,0.025493696409458,90.05323224765863,0.524,0.77
+1000,State Thompson (ST),ST,Baselines,state_thompson,dense,deterministic,9,0.1047634755741726,0.0324174465324809,92.78800470963978,0.559,0.797
+1000,TW,TW,TW,tw,dense,deterministic,0,0.1296207853057421,0.0166362684581778,92.95658309245351,0.69,0.873
+1000,TW,TW,TW,tw,dense,deterministic,1,0.1086387465228111,0.019648047292899,91.95494920578956,0.687,0.926
+1000,TW,TW,TW,tw,dense,deterministic,2,0.110744694493246,0.0179401598511471,97.45769870063988,0.795,0.92
+1000,TW,TW,TW,tw,dense,deterministic,3,0.1176593319569427,0.0169594148391633,95.62089305421436,0.744,0.87
+1000,TW,TW,TW,tw,dense,deterministic,4,0.1048382984428326,0.0166934461599203,95.3648800123286,0.763,0.911
+1000,TW,TW,TW,tw,dense,deterministic,5,0.1146292351946556,0.0202175674495666,96.16949114299074,0.762,0.924
+1000,TW,TW,TW,tw,dense,deterministic,6,0.1170046593621495,0.0159380034948954,97.49189654299649,0.803,0.91
+1000,TW,TW,TW,tw,dense,deterministic,7,0.1183078770229117,0.0137622090622468,94.70042332355666,0.697,0.867
+1000,TW,TW,TW,tw,dense,deterministic,8,0.1118092300781595,0.0145708927370668,93.00027626170264,0.688,0.869
+1000,TW,TW,TW,tw,dense,deterministic,9,0.1118312257095267,0.0261305840244287,92.09539323208614,0.723,0.903
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,0,0.1117925636647494,0.0138843788601748,95.16206712259516,0.757,0.921
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,1,0.1058216673944325,0.0224456819082004,95.8348820311198,0.814,0.928
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,2,0.0963726939267073,0.0176957744960257,96.02363521532877,0.76,0.914
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,3,0.1136475226973744,0.0115732642305488,96.73029862075845,0.817,0.929
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,4,0.1295480515270521,0.0176206159590035,97.01043920667256,0.839,0.938
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,5,0.117235946817771,0.0158370637034779,94.28893204583734,0.704,0.882
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,6,0.1186324708461608,0.0270431120853186,97.52083657725711,0.769,0.87
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,7,0.1118892803309211,0.0243152131981681,96.63435567163306,0.68,0.853
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,8,0.1063808903583313,0.0154228122064418,94.19122932684247,0.695,0.877
+1000,Local UCB + TW,Local UCB+TW,Baselines,local_ucb_tw,dense,deterministic,9,0.1014588892528842,0.0147472985333367,90.79255376332188,0.675,0.879
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,0,0.11244925440655,0.0150201402244645,90.7677371779922,0.68,0.837
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,1,0.1005452694268377,0.0194002923527518,96.59509989801496,0.79,0.92
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,2,0.1142906293756665,0.012918712481487,94.13404200372288,0.692,0.855
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,3,0.1021070899152776,0.0155314994903099,96.65393527574966,0.812,0.911
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,4,0.1019233627709735,0.0180745462131646,93.45575794590384,0.687,0.874
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,5,0.1079568450001585,0.0186876838031764,95.0537614425579,0.772,0.904
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,6,0.1152450394939193,0.0183289706367987,96.4505966707858,0.754,0.876
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,7,0.107146760041008,0.0182992812061149,94.66219230977812,0.7,0.888
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,8,0.1084944025921879,0.0215264222769508,92.8705958257576,0.635,0.872
+1000,Global UCB + TW,Global UCB+TW,Baselines,global_ucb_tw,dense,deterministic,9,0.1166993751932793,0.0256895470847667,92.22481549019086,0.687,0.877
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,0,0.1080267120450261,0.0302609196029369,98.6979338084639,0.663,0.841
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,1,0.1194087275637207,0.0255813204621538,98.89931512090013,0.688,0.912
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,2,0.1521979483621849,0.0598585242009055,85.3426219135226,0.518,0.654
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,3,0.1109688442540183,0.025901176911417,95.73184013138476,0.598,0.783
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,4,0.1104383240316488,0.0216596786263754,100.22434489074963,0.685,0.882
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,5,0.1175934655442197,0.0358636537264873,100.90499547452907,0.711,0.875
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,6,0.1254447551378895,0.0377762993292723,98.58055914893536,0.577,0.688
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,7,0.1186786484343641,0.0341062112184544,100.70808273903944,0.69,0.903
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,8,0.0992432438338785,0.0273720217737735,98.37730101442452,0.689,0.83
+1000,EXP4-based,EXP4,Baselines,exp4,dense,deterministic,9,0.1126922361798501,0.0341941796392355,94.14775296009886,0.651,0.883
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,0,0.115776652312624,0.0136356245064848,92.20274355155269,0.695,0.883
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,1,0.1094768448463516,0.0239508861367562,94.60016475759411,0.771,0.917
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,2,0.1018358659779045,0.0165096615597215,97.27742147822087,0.752,0.891
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,3,0.107822491574273,0.0140863590780524,96.76088199922955,0.779,0.871
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,4,0.1244160976684758,0.0162106524300504,96.6475690994397,0.837,0.947
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,5,0.1122597420143141,0.0197265765647377,93.25713192914506,0.684,0.878
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,6,0.1087005041590662,0.0162731571138528,96.75658232939485,0.791,0.89
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,7,0.1129922378998823,0.0148611753867136,93.9811534613912,0.57,0.761
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,8,0.1111508934185974,0.027902764345249,92.11384226087888,0.555,0.784
+1000,TM-TW,TM-TW,Baselines,tm_tw,dense,deterministic,9,0.1278587100656652,0.0185306103995712,94.86879644846032,0.76,0.904
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,0,0.1183144976573636,0.0117116134118158,95.9365171379503,0.736,0.909
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,1,0.1188503603827435,0.0197710504989055,98.33032094951764,0.847,0.971
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,2,0.1015919490825729,0.0174374862319189,97.76293006857,0.696,0.849
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,3,0.1132967925683673,0.0190636345252084,97.92145434427616,0.785,0.894
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,4,0.106388034724324,0.0170228648059112,98.26534236179704,0.82,0.938
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,5,0.1118227925484408,0.0205931250985768,98.3917086960656,0.83,0.95
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,6,0.107490875655651,0.0290991635651765,97.1695207649737,0.708,0.82
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,7,0.1124517414436544,0.0213385616478752,98.67649249125024,0.766,0.917
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,8,0.1089118909503725,0.017922651524778,97.99460667656678,0.802,0.931
+1000,Adp. TM-TW,Adaptive TM-TW,Refined TM-TW,tm_tw_refined,dense,deterministic,9,0.110047049678333,0.0186494618950538,97.17190574001188,0.799,0.941
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,0,0.0649272381363399,0.011416425023814,97.53140629427948,0.767,0.924
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,1,0.0708137870483281,0.0136573008285871,97.76735514230272,0.848,0.957
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,2,0.0781400455016787,0.0115421130293883,96.43749637174092,0.738,0.891
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,3,0.0679842976726023,0.0117179211527332,95.28712484217044,0.716,0.874
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,4,0.0676785226169465,0.0141165621008796,97.9833460869296,0.769,0.926
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,5,0.0747033039256662,0.0111652594232488,99.81465297262818,0.864,0.957
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,6,0.0700093497812992,0.0137371051754795,98.71937052429344,0.799,0.884
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,7,0.0648377129375554,0.0131111015706874,97.3099021776184,0.792,0.937
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,8,0.0697120940840498,0.0132994870067518,89.7969042206451,0.635,0.8
+1000,Adp. + offline prior,Offline prior,Refined TM-TW,tm_tw_refined,offline,deterministic,9,0.0681493338666722,0.0140397970802703,94.7023929935236,0.641,0.908
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,0,0.0688990419361675,0.0129831738333149,97.48954082728032,0.805,0.939
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,1,0.0707457120260813,0.0138634102563816,97.39596335676492,0.861,0.933
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,2,0.0703517205039562,0.0140673169640645,99.80451846700892,0.806,0.938
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,3,0.0641761985106324,0.0151504012822865,92.40240711620352,0.623,0.811
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,4,0.0744093784541972,0.0120462542662467,95.36541017567282,0.714,0.837
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,5,0.0668442873825325,0.0134216470838755,96.30881150570914,0.734,0.931
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,6,0.0736682235826134,0.0151644773998297,99.48957270153429,0.769,0.863
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,7,0.0669366382901153,0.0135487196800972,95.69433214931284,0.68,0.839
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,8,0.0729764010226207,0.0144984803688301,95.12389677486706,0.616,0.864
+1000,Adp. + gated prior,Gated prior,Refined TM-TW,tm_tw_refined,gated_offline,deterministic,9,0.0711397160730179,0.0166095704453343,98.3227084463775,0.842,0.96
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,0,0.0671226461794124,0.0125832731174909,93.19674759283936,0.743,0.911
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,1,0.0674812592597961,0.0140276636032256,98.21312060675598,0.864,0.964
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,2,0.0719603325916864,0.0144944370051829,96.8180301400682,0.768,0.898
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,3,0.0648173112541961,0.0142961267268436,96.85096887528437,0.708,0.862
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,4,0.0735992460458539,0.0139507912634813,96.64499470981036,0.74,0.861
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,5,0.0695823952953161,0.0140712816920338,98.94047999302308,0.72,0.892
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,6,0.0723917545511985,0.0162968448815563,97.96851975423164,0.7,0.803
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,7,0.0751325538902365,0.0135396561331228,97.13202503662065,0.651,0.877
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,8,0.0676342402660923,0.0142944376084672,95.2163097084873,0.702,0.882
+1000,Adp. + gated + LR,Gated + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,deterministic,9,0.0717229017509366,0.0128526429473397,97.68882527054603,0.757,0.931
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,0,0.0711319252965489,0.0139537234436498,95.16264156764642,0.757,0.948
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,1,0.0717153229509049,0.0135547066089262,97.8791662847272,0.883,0.973
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,2,0.0702937861886268,0.0138170285397951,94.77429080618089,0.75,0.911
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,3,0.0609733978677873,0.0128266320271868,98.77967153063987,0.844,0.952
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,4,0.0730538340664414,0.013806693402623,97.85932705098864,0.811,0.92
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,5,0.0701108230946525,0.0138931839855549,99.68753607511762,0.871,0.966
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,6,0.0642799507925737,0.015966791605968,98.60445359448042,0.746,0.847
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,7,0.0797409365604345,0.0130189701121899,97.83452599343956,0.75,0.895
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,8,0.0663127616808884,0.0133521664761358,95.6249335126394,0.676,0.874
+1000,Adp. + beta gate prior,Beta-gate prior,Refined TM-TW,tm_tw_refined,gated_offline,beta,9,0.0664293026169919,0.015211513220677,97.93772145019445,0.775,0.949
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,0,0.0610590575482409,0.0133096911966291,96.41253611441296,0.727,0.888
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,1,0.069793026435607,0.0134374522120064,98.03087773232356,0.836,0.963
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,2,0.0711434980454772,0.0157616200774874,95.78307404047456,0.669,0.851
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,3,0.07509667611049,0.0143856162893476,89.92581984594972,0.54,0.767
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,4,0.0794077041778808,0.0142796010429202,96.36352341952184,0.756,0.887
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,5,0.0618340409530943,0.0125371512116535,99.77783315642098,0.76,0.929
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,6,0.072247375602754,0.0168300985141764,91.63074329211774,0.572,0.708
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,7,0.0698658770068352,0.0132504225824157,98.3478178479484,0.689,0.868
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,8,0.0725273385945134,0.0131029913429889,95.40852810511976,0.685,0.878
+1000,Adp. + beta gate + LR,Beta-gate + LR,Refined TM-TW,tm_tw_refined,gated_offline_low_rank,beta,9,0.0664649619374708,0.014146698094482,96.8679689519802,0.776,0.937
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,0,0.0558851019476539,1.227914309641812e-07,92.50098995203764,0.706,0.885
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,1,0.0533372831651726,1.2040234023981418e-07,98.01952433946884,0.88,0.965
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,2,0.0613665941214751,1.1770555356359197e-07,96.26928630724652,0.761,0.904
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,3,0.0603751781165291,1.2089340628089864e-07,97.88996479425424,0.809,0.939
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,4,0.0531503684580278,1.1846777656658837e-07,98.17767104756388,0.833,0.944
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,5,0.0556608842751359,1.104080573450884e-07,97.87559389772714,0.826,0.939
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,6,0.0524691427428988,1.315133973989467e-07,97.57833549835308,0.806,0.897
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,7,0.0550816179388909,1.253317253332167e-07,97.6188149505016,0.711,0.906
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,8,0.0589363897024583,1.0691059362704899e-07,93.64693719534182,0.572,0.795
+1000,Adp. + support/offline,Support + offline,Refined TM-TW,tm_tw_refined,support_offline,deterministic,9,0.0475655615261242,1.4026502494524644e-07,97.06113520874008,0.743,0.95

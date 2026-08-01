@@ -1,0 +1,3 @@
+n_dc,budget,S,queue_states,operation_states,policy_label,transition_variant,gate_mode,trust_floor,n,mean_reward_pct_oracle,mean_transition_l1_error,mean_off_support_leakage,mean_top1_agreement,mean_top2_agreement,mean_cum_regret
+8,3,80,40,2,oracle,dense,deterministic,0.1,10,100.0,0.1296591146579395,0.0107085239352994,1.0,1.0,0.0
+8,3,80,40,2,tw_support_offline,support_offline,deterministic,0.1,10,76.4324803882981,0.0854431424440636,2.839112388845935e-07,0.5156,0.8028666666666666,370068.5021566944

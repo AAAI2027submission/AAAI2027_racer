@@ -1,0 +1,21 @@
+lr_mode_key,lr_mode,seed,arms,total_offline_support_edges,mean_offline_support_edges,min_offline_support_edges,max_offline_support_edges
+global_lr,Global LR,42,8,8160,1020.0,1020,1020
+global_lr,Global LR,43,8,8160,1020.0,1020,1020
+global_lr,Global LR,44,8,8160,1020.0,1020,1020
+global_lr,Global LR,45,8,8160,1020.0,1020,1020
+global_lr,Global LR,46,8,8160,1020.0,1020,1020
+global_lr,Global LR,47,8,8160,1020.0,1020,1020
+global_lr,Global LR,48,8,8160,1020.0,1020,1020
+global_lr,Global LR,49,8,8160,1020.0,1020,1020
+global_lr,Global LR,50,8,8160,1020.0,1020,1020
+global_lr,Global LR,51,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,42,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,43,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,44,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,45,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,46,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,47,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,48,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,49,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,50,8,8160,1020.0,1020,1020
+block_local_lr,Block/local LR,51,8,8160,1020.0,1020,1020

@@ -1,0 +1,4 @@
+n_dc,budget,S,queue_states,operation_states,policy_label,transition_variant,gate_mode,trust_floor,n,mean_reward_pct_oracle,mean_transition_l1_error,mean_off_support_leakage,mean_top1_agreement,mean_top2_agreement,mean_cum_regret
+8,3,80,40,2,oracle,dense,deterministic,0.1,10,100.0,0.12494610777880817,0.010203842036658363,1.0,1.0,0.0
+8,3,80,40,2,tm_tw_refined_gated_offline_low_rank,gated_offline_low_rank,deterministic,0.1,10,53.85193513844566,0.08572689146067912,0.006469259865622042,0.5721333333333333,0.6963333333333332,11950.112380771272
+8,3,80,40,2,tw_gated_offline_low_rank,gated_offline_low_rank,deterministic,0.1,10,49.57953980992649,0.09223712544134309,0.007225319585017988,0.5694666666666667,0.6815333333333333,13295.415117486287

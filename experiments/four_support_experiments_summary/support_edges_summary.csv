@@ -1,0 +1,5 @@
+experiment_folder,experiment,mean_total_edges,sem_total_edges
+gated_offline_prior,Gated offline prior,8160.0,0.0
+gated_offline_block_lr,Gated offline + block LR,8160.0,0.0
+rule_based_support,Rule-based support,2632.0,0.0
+model_rules_union,Model + rules union,8160.0,0.0

@@ -1,0 +1,38 @@
+\begin{table}[t]
+\centering
+\caption{Baseline-setting checkpoint diagnostics ranked by reward versus oracle. Rank 1 is best within each checkpoint round.}
+\label{tab:baseline_setting_checkpoint_diagnostics_ranked}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{rlrrrrr}
+\toprule
+Round & Method & Reward vs. oracle (\%) $\downarrow$ & L1 error & Leakage & Top-1 & Top-2 \\
+\midrule
+100 & Support + offline & 94.82 & 0.078 & 0.000 & 0.631 & 0.815 \\
+100 & Gated + LR & 94.44 & 0.115 & 0.027 & 0.607 & 0.788 \\
+100 & Offline prior & 93.83 & 0.108 & 0.026 & 0.570 & 0.771 \\
+100 & Adaptive TW & 93.35 & 0.182 & 0.043 & 0.572 & 0.785 \\
+100 & Gated prior & 92.09 & 0.109 & 0.026 & 0.598 & 0.775 \\
+100 & Beta-gate + LR & 91.68 & 0.112 & 0.026 & 0.587 & 0.769 \\
+100 & Beta-gate prior & 91.64 & 0.110 & 0.026 & 0.573 & 0.744 \\
+100 & EXP4 & 90.36 & 0.179 & 0.044 & 0.580 & 0.758 \\
+100 & ST & 89.91 & 0.170 & 0.043 & 0.530 & 0.702 \\
+100 & Local UCB+TW & 89.48 & 0.176 & 0.039 & 0.558 & 0.751 \\
+100 & Global UCB+TW & 86.67 & 0.179 & 0.040 & 0.511 & 0.710 \\
+100 & TW & 84.14 & 0.185 & 0.036 & 0.514 & 0.691 \\
+\addlinespace
+1000 & Adaptive TW & 97.76 & 0.111 & 0.019 & 0.779 & 0.912 \\
+1000 & Beta-gate prior & 97.41 & 0.069 & 0.014 & 0.786 & 0.923 \\
+1000 & EXP4 & 97.16 & 0.117 & 0.033 & 0.647 & 0.825 \\
+1000 & ST & 96.91 & 0.107 & 0.027 & 0.633 & 0.826 \\
+1000 & Gated + LR & 96.87 & 0.070 & 0.014 & 0.735 & 0.888 \\
+1000 & Gated prior & 96.74 & 0.070 & 0.014 & 0.745 & 0.891 \\
+1000 & Support + offline & 96.66 & 0.055 & 0.000 & 0.765 & 0.912 \\
+1000 & Offline prior & 96.53 & 0.070 & 0.013 & 0.757 & 0.906 \\
+1000 & Beta-gate + LR & 95.85 & 0.070 & 0.014 & 0.701 & 0.868 \\
+1000 & Local UCB+TW & 95.42 & 0.111 & 0.018 & 0.751 & 0.899 \\
+1000 & TW & 94.68 & 0.115 & 0.018 & 0.735 & 0.897 \\
+1000 & Global UCB+TW & 94.29 & 0.109 & 0.018 & 0.721 & 0.881 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

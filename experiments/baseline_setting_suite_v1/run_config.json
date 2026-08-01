@@ -1,0 +1,30 @@
+{
+  "setting": "Baseline setting",
+  "state_dimension": "one-dimensional",
+  "contextual_noise": 0.0,
+  "arms": 5,
+  "states": 8,
+  "batch_size": 5,
+  "rounds": 1000,
+  "seeds": 10,
+  "policies": [
+    "state_thompson",
+    "local_ucb_tw",
+    "global_ucb_tw",
+    "exp4",
+    "tw",
+    "tm_tw",
+    "tm_tw_refined"
+  ],
+  "variants": [
+    "dense",
+    "gated_offline",
+    "gated_offline_low_rank",
+    "support_offline"
+  ],
+  "output_files": [
+    "context_noise_results.csv",
+    "context_noise_summary.csv",
+    "context_noise_reward_pct.png"
+  ]
+}
