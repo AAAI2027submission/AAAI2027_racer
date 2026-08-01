@@ -5,7 +5,7 @@
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+"></a>
 </p>
 
-This repository contains the datasets and experimental results associated with the submission: *Refined Thompson Learning for Adaptive Restless Bandits: Power-Efficient Flexibility Scheduling Across Data Centers*.
+This repository contains the datasets and experimental results associated with the submission: *Refined Thompson Learning for Adaptive Bandits: Sustainable Power-Efficient Flexibility Scheduling Across Data Centers*.
 
 
 ![RACER GitHub cover](Readme_graph/Github_cover.png)
