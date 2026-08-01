@@ -1,0 +1,126 @@
+{
+  "source_results": "eight_dc_exp4_block_vs_global_lr_10seed_source.csv",
+  "datacenter_dir": "datasets/datacenter_with_metrics",
+  "output": "eight_dc_exp4_combine_variant_2d_state_block_vs_global_lr_10seed_global_results",
+  "rounds": 1500,
+  "queue_states": 40,
+  "operation_states": 2,
+  "total_states_per_datacenter": 80,
+  "offline_support_source": "model_informed_from_datacenter_model_assignment",
+  "offline_support_rules": [],
+  "offline_support_min_model_weight": 0.05,
+  "state_definition": "s=(q,o)",
+  "operation_type_0": "batch-flexible training",
+  "operation_type_1": "interactive-heavy inference",
+  "reward_function": "max(0, lambda_lmp * (P_default - P_hat_chosen) - lambda_delay_o * c_delay); P_hat_chosen = epsilon_o * P_chosen + (1 - epsilon_o) * P_default",
+  "lambda_lmp": 1.0,
+  "batch_epsilon": 0.9,
+  "inference_epsilon": 0.5,
+  "batch_delay_weight": 0.04,
+  "inference_delay_weight": 0.35,
+  "policies": [
+    "state_thompson",
+    "local_ucb_tw",
+    "global_ucb_tw",
+    "exp4",
+    "tw",
+    "tm_tw_refined"
+  ],
+  "variants": [
+    "dense",
+    "gated_offline",
+    "gated_offline_low_rank",
+    "support_offline"
+  ],
+  "exclude_tm_tw_family": false,
+  "exclude_plain_tm_tw": true,
+  "include_support_gated_low_rank": false,
+  "policy_labels": [
+    "oracle",
+    "tm_tw_refined_gated_offline_low_rank",
+    "tw_gated_offline_low_rank"
+  ],
+  "gate_scale_mult": 1.0,
+  "offline_prior_weight": 1.5,
+  "support_offline_leak": 0.0,
+  "support_trust_cap": null,
+  "support_local_bonus": 0.0,
+  "low_rank_blend_scale": 0.7,
+  "low_rank_projection_weight": 1.0,
+  "low_rank_local_bonus": 0.0,
+  "low_rank_max_rank": 10,
+  "block_low_rank": false,
+  "oracle_comparison": "fixed_whittle_oracle_rollout",
+  "settings": [
+    {
+      "seed": 42,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 43,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 44,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 45,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 46,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 47,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 48,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 49,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 50,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    },
+    {
+      "seed": 51,
+      "n_dc": 8,
+      "n_jobs": 40,
+      "budget": 3,
+      "datacenter_ids": "0|2|4|5|7|8|12|15"
+    }
+  ]
+}
